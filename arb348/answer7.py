@@ -14,6 +14,6 @@ a list containing the following elements?
 [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
 """
 
-ListOne = sorted([1, 2, 3, 4, 5, 6, 7, 8, 9][0:4]*4)
-ListOne.remove(2)
+ListOne = [1, 2, 3, 4, 5, 6, 7, 8, 9][0:4]*3+[1,3,3,4]
+ListOne = sorted(ListOne)
 print ListOne
